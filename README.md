@@ -15,7 +15,7 @@ frontend-starter/
 │   │   └── fonts/
 │   │
 │   ├── components/
-│   │
+│   ├── config/
 │   ├── layouts/
 │   │
 │   ├── pages/

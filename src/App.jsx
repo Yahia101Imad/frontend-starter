@@ -1,9 +1,12 @@
-import Home from "./pages/Home";
+import { env } from "./config/env.js";
 
-function App() {
-
-    return <Home />
-
+function Home() {
+  return (
+    <>
+      <h1>{env.appName}</h1>
+      <p>{env.appVersion}</p>
+    </>
+  );
 }
 
-export default App;
+export default Home;
