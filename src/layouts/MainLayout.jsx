@@ -1,13 +1,17 @@
-function MainLayout({children}){
+import { Outlet } from "react-router-dom";
 
-    return(
+function MainLayout() {
+  return (
+    <>
+      <header>Navbar</header>
 
-        <>
-            {children}
-        </>
+      <main>
+        <Outlet />
+      </main>
 
-    )
-
+      <footer>Footer</footer>
+    </>
+  );
 }
 
 export default MainLayout;
