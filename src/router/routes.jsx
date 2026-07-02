@@ -1,6 +1,7 @@
-import Home from "../pages/Home";
-import Login from "../pages/Login";
-import Register from "../pages/Register";
+import Landing from "../pages/marketing/Landing";
+import Pricing from "../pages/marketing/Pricing";
+import Login from "../pages/auth/Login";
+import Register from "../pages/auth/Register";
 import NotFound from "../pages/NotFound";
 
 import MainLayout from "../layouts/MainLayout";
@@ -13,7 +14,11 @@ export const routes = [
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <Landing />,
+      },
+      {
+        index: true,
+        element: <Pricing />,
       },
     ],
   },
