@@ -4,13 +4,13 @@ import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
 import NotFound from "../pages/NotFound";
 
-import MainLayout from "../layouts/MainLayout";
+import MarketingLayout from "../layouts/MarketingLayout";
 import AuthLayout from "../layouts/AuthLayout";
 
 export const routes = [
   {
     path: "/",
-    element: <MainLayout />,
+    element: <MarketingLayout />,
     children: [
       {
         index: true,

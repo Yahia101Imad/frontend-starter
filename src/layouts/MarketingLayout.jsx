@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-function MainLayout() {
+function MarketingLayout() {
   return (
     <>
       <header>Navbar</header>
@@ -14,4 +14,4 @@ function MainLayout() {
   );
 }
 
-export default MainLayout;
+export default MarketingLayout;
